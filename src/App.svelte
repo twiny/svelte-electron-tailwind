@@ -1,5 +1,5 @@
 <script>
-	import Demo from './lib/Demo.svelte';
+	import Demo from './components/Demo.svelte';
 </script>
 
 <main>

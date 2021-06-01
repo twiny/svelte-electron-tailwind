@@ -6,13 +6,20 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "electron ."
+    "start": "electron .",
+    "electron:build": "npm run build && electron-builder",
+    "electron:build:mac": "npm run build && electron-builder --mac",
+    "electron:build:win": "npm run build && electron-builder --win --x64",
+    "electron:build:linux": "npm run build && electron-builder --linux",
+    "postinstall": "electron-builder install-app-deps"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
     "@rollup/plugin-node-resolve": "^11.0.0",
     "autoprefixer": "^10.2.6",
     "electron": "^13.0.1",
+    "electron-builder": "^22.11.5",
+    "electron-packager": "^15.2.0",
     "postcss": "^8.3.0",
     "postcss-load-config": "^3.0.1",
     "rollup": "^2.3.4",
