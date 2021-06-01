@@ -1,4 +1,4 @@
-productName: NameAuditor
+productName: MyApp
 appId: com.example.app
 
 asar: true
