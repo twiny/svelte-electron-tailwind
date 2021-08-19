@@ -1,11 +1,20 @@
-# Svelte app + ElectronJS + Tailwind
+# Electron + Svelte + Tailwind
 
-an ElectronJS App starter template using:
+A quick ElectronJS App starter template using:
  * Svelte
- * Tailwind
- * JIT
+ * Tailwind (JIT)
+ * Electron Builder
 
-## Dev mod
+## Install
+```
+git clone https://github.com/issmeftah/svelte-electron-tailwind
+
+cd svelte-electron-tailwind/
+
+npm install
+```
+
+## Dev
 `npm run dev`
 
 ## Build
