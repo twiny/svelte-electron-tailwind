@@ -7,7 +7,7 @@ A quick ElectronJS App starter template using:
 
 ## Install
 ```
-git clone https://github.com/issmeftah/svelte-electron-tailwind
+git clone https://github.com/twiny/svelte-electron-tailwind
 
 cd svelte-electron-tailwind/
 
